@@ -3,7 +3,7 @@ function CalculateTime() {
     var bestCaseArrival = moment();
     var duration = moment.duration(bestCaseArrival.diff(worstCaseScheduled));
     
-    $('.time--days').text(Math.round(duration.asDays()));
+    $('.time--days').text(Math.floor(duration.asDays()));
     $('.time--hours').text(duration.hours());
     $('.time--minutes').text(duration.minutes());
     $('.time--seconds').text(duration.seconds());
