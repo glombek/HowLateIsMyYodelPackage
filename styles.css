@@ -7,6 +7,9 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     
+    margin:0;
+    padding: 0.5ex;
+    
     font-size: 11vmin;
 }
 
