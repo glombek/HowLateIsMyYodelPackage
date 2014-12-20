@@ -29,35 +29,46 @@ main {
 
 main span {
     float: left;
-    padding-right: 0.5ex;
 }
 
 .time {
     clear:left;
 }
 
+/*.time {
+    display:block;
+    text-align: right;
+}
+
+.time--seconds {
+    width: 6em;
+}
+.time--minutes {
+    width: 5.8em;
+}
+.time--hours {
+    width: 4.9em;
+}
+.time--days {
+    width: 4.1em;
+}*/
+
 .time--days,
-.label--days,
 .time--minutes,
-.label--minutes,
 .brand,
 a
 {
     color: #99cc00;
 }
 
-.brand-highlight {
+.brand-highlight,
+a:hover,
+a:active {
     color: #C90044;
 }
 
 a {
-    opacity:0.8;
     text-decoration: none;
-}
-
-a:hover,
-a:active {
-    opacity:1;
 }
 
 footer {
