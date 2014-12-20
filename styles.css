@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+    font-size: 11vmin;
+}
+
+main {    
+    
+    position:absolute;
+    top:50%;
+        
+    -webkit-transform: translateY(-50%);    
+    -moz-transform: translateY(-50%);    
+    -ms-transform: translateY(-50%);    
+    -0-transform: translateY(-50%);    
+    transform: translateY(-50%);    
+    
+    overflow: hidden;
+}
+
+main span {
+    float: left;
+    padding-right: 0.5ex;
+}
+
+.time {
+    clear:left;
+}
+
+.time--days,
+.label--days,
+.time--minutes,
+.label--minutes,
+.brand,
+a
+{
+    color: #99cc00;
+}
+
+a {
+    opacity:0.8;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    opacity:1;
+}
+
+footer {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 0.2em;
+}
