@@ -46,6 +46,10 @@ a
     color: #99cc00;
 }
 
+.brand-highlight {
+    color: #C90044;
+}
+
 a {
     opacity:0.8;
     text-decoration: none;
